@@ -8,5 +8,12 @@ while True:
     else:
         break
 
-roll = random.randint(1,dice)
+while True:
+    try:
+        roll = random.randint(1,dice)
+    except:
+       print("sorry but that size doesn't work")
+    else:
+        break
+
 print(f"you rolled a {roll} !")
