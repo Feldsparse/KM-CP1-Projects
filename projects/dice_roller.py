@@ -2,7 +2,7 @@
 import random
 while True:
     try:
-        dice = int(input("what type of dice would you like to use? D"))
+        dice = int(input("what type of dice would you like to use? D4, D6, D8, D10, D12, D20 D"))
     except:
        print("sorry but that's not a die size")
     else:

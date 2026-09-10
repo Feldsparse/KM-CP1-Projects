@@ -10,7 +10,6 @@ name5 = "".join(name3)
 name6 = "".join(name4)
 
 full_name = name5.title() + " " + name6.title()
-print(full_name)
 
 while True:
 
@@ -23,4 +22,19 @@ while True:
     else:
         break
 
-print(number)
+
+while True:
+
+    try:
+        grape =(float(input("what is your GPA? ")))
+    except:
+        print("thats not a valid gpa")
+
+    else:
+        break
+
+number_seperated = number.split
+fixed = "".join(number_seperated)
+print(f"your full name is {full_name}.")
+print(f"your phone number is {fixed}.")
+print(f"your GPA is {grape}.")
